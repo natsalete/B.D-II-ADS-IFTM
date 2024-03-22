@@ -21,3 +21,13 @@ Use comando alter table para: <br />
 – Exclua a coluna num_edição da tabela livro e recrie com nome de edição <br />
 – Crie um nova tabela chamada grupo(id_grupo, nome). Adicione a tabela editora uma coluna para essa tabela através de um chave estrangeira. Ajuste o comando para que quando for deletada seja setado null na tabela editora. No caso do update seja
 atualizado em cascata.
+
+##
+
+### Atividade 2
+
+![Captura de tela 2024-03-22 123808](https://github.com/natsalete/B.D-II-ADS-IFTM/assets/135389319/9b00edee-26d4-4b23-9e89-844ce83a9333)
+
+#### Parte 1.
+
+- Crie o banco de dados acima usando DDL.
