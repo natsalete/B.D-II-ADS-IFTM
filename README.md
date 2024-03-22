@@ -31,3 +31,10 @@ atualizado em cascata.
 #### Parte 1.
 
 - Crie o banco de dados acima usando DDL.
+
+#### Parte 2.
+
+- Crie código para a inserção dos dados abaixo.
+
+![image](https://github.com/natsalete/B.D-II-ADS-IFTM/assets/135389319/9bbec159-814c-4110-b8e4-c299a7deada1)
+
