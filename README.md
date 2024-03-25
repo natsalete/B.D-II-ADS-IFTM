@@ -38,3 +38,20 @@ atualizado em cascata.
 
 ![image](https://github.com/natsalete/B.D-II-ADS-IFTM/assets/135389319/9bbec159-814c-4110-b8e4-c299a7deada1)
 
+#### Terceira Parte - Consultas.
+
+1) Altere a tabela cliente e crie um novo atributo chamado e-mail para armazenar os emails dos
+clientes.
+2) Recupere o cpf e o endereço do(s) cliente(s) cujo primeiro nome seja ‘c’.
+3) Altere o número da agência 0562 para 6342.
+4) Altere o registro do cliente Caetano K Lima acrescentando o email caetanolima@gmail.com.
+5) Conceda à conta 23584-7 um aumento de 10 por cento no saldo.
+6) Insira na tabela de Agência os seguintes dados:
+    - Numero: 1333
+    - Endereço: Rua João José da Silva, 486
+    - Banco do Brasil . <br />
+    
+7) Recupere o número e o endereço de todas as agências do Banco do Brasil. Use o código do banco fixo na condição do where. <br />
+8) Recupere todos os valores de atributo de qualquer cliente que é do sexo masculino. <br />
+9) Exclua a conta 86340-2
+
