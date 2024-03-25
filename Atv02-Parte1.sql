@@ -1,5 +1,5 @@
-CREATE DATABASE Banco;
-USE Banco;
+-- CREATE DATABASE banco01;
+ -- USE banco01;
 
 CREATE TABLE banco (
     codigo INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -11,7 +11,7 @@ CREATE TABLE banco (
     cod_banco INT NOT NULL,
     FOREIGN KEY (cod_banco)
         REFERENCES banco (codigo)
-        ON UPDATE RESTRICT ON DELETE RESTRICT,
+        ON UPDATE CASCADE ON DELETE CASCADE,
     endereco VARCHAR(100),
     CONSTRAINT n_agencia_cod_banco PRIMARY KEY agencia (numero_agencia , cod_banco)
 );
@@ -23,6 +23,7 @@ CREATE TABLE conta (
     num_agencia INT,
     FOREIGN KEY (num_agencia)
         REFERENCES agencia (numero_agencia)
+        ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE cliente (
@@ -36,10 +37,12 @@ CREATE TABLE cliente (
 CREATE TABLE historico (
     cpf VARCHAR(14) NOT NULL,
     FOREIGN KEY (cpf)
-        REFERENCES cliente (cpf),
+        REFERENCES cliente (cpf)
+        ON UPDATE CASCADE ON DELETE CASCADE,
     num_conta VARCHAR(7) NOT NULL,
     FOREIGN KEY (num_conta)
-        REFERENCES conta (num_conta),
+        REFERENCES conta (num_conta)
+        ON UPDATE CASCADE ON DELETE CASCADE,
     data_inicio DATE,
     CONSTRAINT cpf_num_conta PRIMARY KEY historico (cpf , num_conta)
 );
@@ -47,7 +50,8 @@ CREATE TABLE historico (
 CREATE TABLE telefone_cliente (
     cpf_cli VARCHAR(14) NOT NULL,
     FOREIGN KEY (cpf_cli)
-        REFERENCES cliente (cpf),
+        REFERENCES cliente (cpf)
+        ON UPDATE CASCADE ON DELETE CASCADE,
     telefone VARCHAR(20) NOT NULL,
     CONSTRAINT cpf_telefone PRIMARY KEY telefone_cliente (cpf_cli , telefone)
 );
