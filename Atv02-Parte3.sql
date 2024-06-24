@@ -1,3 +1,5 @@
+-- Parte 3
+
 -- 3)Altere o número da agência 0562 para 6342.
 UPDATE agencia
 SET numero_agencia = 6342
