@@ -38,7 +38,7 @@ atualizado em cascata.
 
 ![image](https://github.com/natsalete/B.D-II-ADS-IFTM/assets/135389319/9bbec159-814c-4110-b8e4-c299a7deada1)
 
-#### Terceira Parte - Consultas.
+#### Parte 3 - Consultas.
 
 1) Altere a tabela cliente e crie um novo atributo chamado e-mail para armazenar os emails dos
 clientes.
@@ -55,3 +55,20 @@ clientes.
 8) Recupere todos os valores de atributo de qualquer cliente que é do sexo masculino. <br />
 9) Exclua a conta 86340-2
 
+##
+
+### Atividade 3
+
+![image](https://github.com/natsalete/B.D-II-ADS-IFTM/assets/135389319/2b3ff320-17cc-41f5-a21b-6d68b7c3900a)
+
+-  Crie o banco de dados acima usando DDL.
+1. Liste o nome, o CPF e a data de nascimento de todos os alunos.
+2. Liste o nome, o CPF e o sexo de todos os alunos nascidos após 1990.
+3. Liste o nome do curso com a maior carga horária.
+4. Excluir todas as disciplinas com a carga horária inferior a 20 horas:
+5. Liste o ID do aluno com a menor nota na disciplina de Programação Orientada a
+Objetos.
+6. Liste os IDS de todos os alunos que estão matriculados em um curso com carga
+horária superior a 2400 horas:
+7. Liste o nome, o nome do curso e a carga horária do curso de cada aluno.
+8. Atualizar a carga horária do curso de Administração para 300 horas:
