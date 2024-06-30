@@ -72,3 +72,29 @@ Objetos.
 horária superior a 2400 horas:
 7. Liste o nome, o nome do curso e a carga horária do curso de cada aluno.
 8. Atualizar a carga horária do curso de Administração para 300 horas:
+
+##
+
+### Atividade 4
+
+![image](https://github.com/natsalete/B.D-II-ADS-IFTM/assets/135389319/62f45edc-4e71-4844-843d-c002cc9e3508)
+
+-  Crie o banco de dados acima usando DDL.
+1. Insira na tabela de projeto o projeto “Novo Projeto”, localizado no “Buritis”, associando ao departamento 1.
+2. Insira na tabela de funcionários o funcionário 'Edgar Marinho', que mora na rua 'R. Alameda, 111', nascido em '13/11/1959', ganha R$ 2000,00, não tem supervisor e está a associado ao departamento 2;
+3. Atualize o salário do funcionário ‘Joao Silva’ para R$ 1000,00.
+4. Liste o nome dos empregados do departamento 3 e também do 2 que possuem salário entre R$800,00 e R$1.200,00.
+5. Liste o nome e o endereço de todos os empregados que pertencem ao departamento 'Pesquisa'.
+6. Liste o nome e a data de nascimento do empregado 'Joao Silva'. Mostre no formato brasileiro com dois dígitos no ano. (pesquise a função date_format)
+7. Liste o nome dos empregados que não possuem supervisores.
+8. Liste o nome dos empregados, o nome dos seus departamentos e o nome dos projetos em que eles trabalham, ordenados pelo departamento e pelo nome do projeto.
+9. Liste a soma, a média, o maior e o menor salário de todos os empregados.
+10. Liste a soma, a média, o maior e o menor salário dos empregados do departamento 'Pesquisa'.
+11. Liste o nome dos funcionários que não tem dependentes.
+12. Para cada projeto localizado no 'Luxemburgo', liste o numero do projeto, o número do departamento que o controla e o nome, endereço e data de aniversário do gerente do departamento.
+13. Liste o nome e localização dos projetos que não tem funcionários trabalhando neles.
+14. Liste o nome dos funcionários que não tem dependentes e não estejam trabalhando em nenhum projeto.
+15. Liste para cada empregado, o seu nome e o nome de seu supervisor.
+16. Liste o nome de cada projeto com o número de empregados que trabalham no projeto.
+17. Para cada projeto que possua mais de 2 empregados na equipe, liste o nome do projeto e a quantidade de empregados que trabalham no mesmo.,
+18. Para cada departamento que possua mais do que 2 empregados, liste o nome do departamento e o nome dos empregados que ganham mais do que 800,00.
