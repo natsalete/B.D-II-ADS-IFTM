@@ -98,3 +98,18 @@ horária superior a 2400 horas:
 16. Liste o nome de cada projeto com o número de empregados que trabalham no projeto.
 17. Para cada projeto que possua mais de 2 empregados na equipe, liste o nome do projeto e a quantidade de empregados que trabalham no mesmo.,
 18. Para cada departamento que possua mais do que 2 empregados, liste o nome do departamento e o nome dos empregados que ganham mais do que 800,00.
+
+##
+
+### Atividade 5
+
+Usando o modelo de um sistema bancário da <span>ATIVIDADE 2</span> faça os seguintes exercícios:
+1. Crie uma trigger para inserir na tabela telefone_cliente com um valor padrão de telefone depois
+de inserir na tabela cliente algum registro
+2. Crie uma trigger para que uma vez que seja deletado o cliente, seja deletado também o registro
+na tabela telefone_cliente
+3. Adicione ao modelo uma tabela de log (registros). Sempre que os dados de uma conta forem
+atualizados será gerado um registro nessa tabela, os dados antes e depois da atualização. Crie
+um campo timestamp para armazenar a operação.
+4. Crie uma view com o nome do cliente, nome do banco, endereço da agência, e número da
+conta.
