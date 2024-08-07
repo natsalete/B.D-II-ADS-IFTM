@@ -113,3 +113,25 @@ atualizados será gerado um registro nessa tabela, os dados antes e depois da at
 um campo timestamp para armazenar a operação.
 4. Crie uma view com o nome do cliente, nome do banco, endereço da agência, e número da
 conta.
+
+
+##
+
+### Atividade 6
+
+Utilizando os comandos em SQL, faça o que se pede:
+1. Crie um usuário my_user1;
+2. Crie um usuário my_admin;
+3. Crie/use dois bancos de dados bd1 e db2 quaisquer. Pode ser bancos de outros exercícios. Crie
+algumas tabelas aleatoriamente.
+4. Conceda acesso total para o usuário my_admin ao banco bd1.
+5. Conceda apenas select, insert, delete e update para o usuário my_user no bd1.
+6. Visualize as permissões dadas aos usuários.
+7. Retire todas as permissões do usuário my_user.
+8. Crie uma nova conexão com o usuário my_user e use o comando show tables;
+9. Tente fazer uma operação de update usando o usuário my_user.
+10. Crie um papel chamado papelAdmin e outro papelDev
+11. Conceda ao papel papelAdmin todos os privilégios e para papelDev apenas as operações select,
+insert, update e delete.
+12. Crie dois usuários e atribuía a cada um, um dos papéis criados. Faça teste com os dois usuários
+criados.
